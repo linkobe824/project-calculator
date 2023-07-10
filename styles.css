@@ -1,0 +1,43 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  height: 100vh;
+  width: auto;
+  justify-content: center;
+  align-items: center;
+}
+
+.container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 400px;
+  width: 400px;
+  border: 10px solid rgb(160, 217, 240);
+  border-radius: 10px;
+}
+
+.display {
+  display: flex;
+  justify-content: end;
+  height: 80px;
+  width: auto;
+  font-size: 65px;
+  border: 5px solid grey;
+  padding: 10x;
+}
+
+.row-container {
+  display: flex;
+  height: 80px;
+}
+
+.btn{
+  flex:1;
+  font-size: 40px;
+}
